@@ -29,23 +29,30 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Show Text">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="makeButtonAktion" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Q7-Ua-qF3"/>
+                                </connections>
                             </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="UUt-M5-Nnj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="ObP-C0-Uim" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="358" id="K1K-F1-Ac7"/>
-                            <constraint firstItem="Yfu-Vy-iDF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="104" id="RLI-P2-4Ff"/>
+                            <constraint firstItem="Yfu-Vy-iDF" firstAttribute="top" secondItem="UUt-M5-Nnj" secondAttribute="top" constant="104" id="RLI-P2-4Ff"/>
                             <constraint firstItem="ObP-C0-Uim" firstAttribute="centerY" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="358" id="TDM-OU-W5o"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ObP-C0-Uim" secondAttribute="bottom" constant="31" id="VEX-HT-lrO"/>
-                            <constraint firstItem="Yfu-Vy-iDF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="am4-7K-xDj"/>
-                            <constraint firstItem="ObP-C0-Uim" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="125" id="ma3-2Y-3d7"/>
+                            <constraint firstItem="UUt-M5-Nnj" firstAttribute="bottom" secondItem="ObP-C0-Uim" secondAttribute="bottom" constant="31" id="VEX-HT-lrO"/>
+                            <constraint firstItem="Yfu-Vy-iDF" firstAttribute="centerX" secondItem="UUt-M5-Nnj" secondAttribute="centerX" id="am4-7K-xDj"/>
+                            <constraint firstItem="ObP-C0-Uim" firstAttribute="leading" secondItem="UUt-M5-Nnj" secondAttribute="leading" constant="125" id="ma3-2Y-3d7"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="helloWorldLabel" destination="Yfu-Vy-iDF" id="A9a-ga-VpU"/>
+                        <outlet property="toggleButton" destination="ObP-C0-Uim" id="ucE-oi-hvq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="34.782608695652179" y="79.6875"/>
+            <point key="canvasLocation" x="565" y="104"/>
         </scene>
     </scenes>
     <resources>
